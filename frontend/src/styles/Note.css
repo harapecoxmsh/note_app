@@ -1,0 +1,56 @@
+.note-container {
+  padding: 10px;
+  margin: 20px 0;
+  border: 1px solid rgb(187,237,110);
+  border-radius: 5px;
+  width: 500px;
+}
+.note-content {
+  color: rgb(187,237,110);
+}
+
+.note-date {
+  color: rgb(91, 182, 215);
+  font-size: 0.8rem;
+}
+
+.delete-button {
+  background-color: rgb(30,25,30);
+  color: #f44336;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 430px;
+}
+
+.delete-button:hover {
+  color: #d32f2f;
+}
+.note-image{
+  width: 200px;
+  height: auto;
+}
+.file-name {
+  color: rgb(218, 72, 218)
+}
+.tag-name{
+  color: yellow;
+}
+.download-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(187,237,110);
+  background-color: rgb(30,25,30);
+  border: 1px solid rgb(187,237,110);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  color: rgb(218, 72, 218);
+}
